@@ -9,6 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 public class PaymentApplication {
 
 	public static void main(String[] args) {
+		int abc=20;	
 		SpringApplication.run(PaymentApplication.class, args);
 	}
 
